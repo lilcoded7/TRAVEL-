@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-uen^er^=$yg_)iu!)gq3he8pta5nsb4rb6u3yf@wxaaja2hq)s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['travelconsult.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -77,9 +77,10 @@ WSGI_APPLICATION = 'Travel.wsgi.application'
 
 
 
-# CORS_ALLOWED_ORIGINS = [
+CORS_ALLOWED_ORIGINS = [
+    'https://travelconsult.up.railway.app/'
     
-# ]
+]
 
 
 # Database
