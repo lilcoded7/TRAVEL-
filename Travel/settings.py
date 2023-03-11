@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'Travel.wsgi.application'
 
 
 CORS_ALLOWED_ORIGINS = [
-    'https://travelconsult.up.railway.app/'
+    'https://travelconsult.up.railway.app'
     
 ]
 
